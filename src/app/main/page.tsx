@@ -20,7 +20,6 @@ const page = () => {
       <Questions/>
       <Partners/>
       <Footer/>
- 
 </div>
   )
 }

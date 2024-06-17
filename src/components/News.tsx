@@ -12,7 +12,7 @@ const Pagemain = () => {
               <div className={styles['news__title']}>Новости</div>
               <div className={styles['news__sub-title']}>Последние и актуальные новости нашего колледжа</div>
             </div>
-            <a className={`${styles['news__moreinfo']} ${styles['moreinfo-block__yellowlink']}`} href="#"><span>Посмотреть больше</span><Image src={yellowarrrow} alt=""/></a>
+            <a className={`${styles['news__moreinfo']} ${styles['news__yellowlink']}`} href="#"><span>Посмотреть больше</span><Image src={yellowarrrow} alt=""/></a>
           </div>
           <div className={styles['news__row']}>
             <div className={styles['news__column']}>

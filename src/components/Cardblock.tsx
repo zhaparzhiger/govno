@@ -24,7 +24,7 @@ const Pagemain = () => {
             <Image className={styles['card-block__mapimg']} src={map} alt="Карта" />
             <div className={`${styles['card-block__column']} ${styles['card-block__column_violet']}`}>
                 <div className={styles['card-block__item']}>
-                    <div className={`${styles['card-block__content']} ${styles['card-block__content']}`}>
+                    <div className={`${styles['card-block__content2']}`}>
                         <div className={`${styles['card-block__title']} ${styles['card-block__title_violet']}`}>
                             Приемная комиссия
                         </div>
