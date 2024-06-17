@@ -1,13 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../app/styles/main.module.css';
+import tokayev from '../../public/tokayev.svg'
 const Pagemain = () => {
   return (
     <section className={`${styles['bigimg-block']} ${styles._container}`}>
-    <video className={styles['bigimg-block__elbasy']} autoPlay loop muted playsInline>
-      <source src="/video.mp4" type="video/mp4"/>
-      Ваш браузер не поддерживает видео тег.
-    </video>
+    <Image className={`${styles['bigimg-block__elbasy']}`} src={tokayev} alt=""/>
   </section>
   )
 }
